@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  background: #93a8ac;
+}
+
+tone-content {
+  width: 30%;
+}
+
+tone-player {
+  margin-top: 10px;
+}
