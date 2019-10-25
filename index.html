@@ -15,12 +15,43 @@
     <title>Music for ye</title>
   </head>
   <body>
-    <main>
-      <tone-content>
-        <tone-play-toggle></tone-play-toggle>
-        <tone-player></tone-player>
-      </tone-content>
-    </main>
+    <section>
+      <div id="wave">
+        <tone-content>
+          <tone-play-toggle></tone-play-toggle>
+          <tone-player></tone-player>
+        </tone-content>
+      </div>
+      <div id="sampler">
+        <div class="sampler">
+          <div class="strap one" style="height: 0%;"></div>
+          <div class="strap two" style="height: 0%;"></div>
+          <div class="top-plate"></div>
+          <div class="on-button"></div>
+          <div class="detail-strip">
+            <div class="strip-one"></div>
+            <div class="strip-two"></div>
+            <div class="strip-three"></div>
+            <div class="strip-four"></div>
+          </div>
+          <div class="screen"><span class="screen-info"></span></div>
+          <div class="bank-one active"></div>
+          <div class="bank-two active"></div>
+          <div class="pad-container">
+            <div class="pad" id="z">Z</div>
+            <div class="pad" id="x">X</div>
+            <div class="pad" id="c">C</div>
+            <div class="pad" id="v">V</div>
+            <div class="pad" id="b">B</div>
+            <div class="pad" id="+">+</div>
+            <div class="pad" id="<">&lt;</div>
+            <div class="pad" id=">">&gt;</div>
+            <div class="pad" id="-">-</div>
+          </div>
+          <div class="bottom-plate"></div>
+        </div>
+      </div>
+    </section>
     <script src="./main.js"></script>
   </body>
 </html>
