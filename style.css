@@ -48,8 +48,8 @@ tone-player {
 
 .sampler {
   padding: 1em;
-  width: 20em;
-  height: 15em;
+  width: 30em;
+  height: 25em;
   border: 5px solid;
   display: flex;
   background: var(--sampler-color);
@@ -161,7 +161,7 @@ tone-player {
 .strip-three {
   height: 1em;
   width: 5em;
-  background: #f89d82;
+  background: var(--panel);
   left: 10%;
   bottom: 39%;
   position: absolute;
@@ -170,7 +170,7 @@ tone-player {
 .strip-four {
   height: 5px;
   width: 2em;
-  background: #f89d82;
+  background: var(--panel);
   left: 38%;
   bottom: 39%;
   position: absolute;
@@ -200,7 +200,7 @@ tone-player {
 
 .bank-two.active,
 .bank-one.active {
-  background: #00bcd4;
+  background: var(--button);
   box-shadow: 0px 0px 5px 2px #3be9ff;
 }
 
@@ -210,17 +210,18 @@ tone-player {
 
 .bank-two.active {
   background: #f57752;
-  box-shadow: 0px 0px 5px 2px #f89d82;
+  box-shadow: 0px 0px 5px 2px var(--panel);
 }
 
 .screen {
   position: absolute;
-  height: 4em;
-  width: 8em;
-  background: #bfeecc;
+  height: 5em;
+  width: 10em;
+  background: var(--screen-color);
   left: 58.8%;
   top: 37%;
-  box-shadow: #4a505a 0px 0px 0px 5px inset, #616976 0px 0px 0px 15px inset, 0px 4px lightgray;
+  box-shadow: #4a505a 0px 0px 0px 5px inset, var(--screen-borders) 0px 0px 0px 15px inset,
+    0px 4px lightgray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,7 +268,7 @@ tone-player {
   position: absolute;
   height: 50%;
   width: 80%;
-  background: #e5e6e8;
+  background: var(--background);
   bottom: 0;
   left: 50%;
   transform: translateX(-50%) translateY(-40%);
