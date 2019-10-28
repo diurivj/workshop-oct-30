@@ -216,7 +216,7 @@ tone-player {
 .screen {
   position: absolute;
   height: 5em;
-  width: 10em;
+  width: 10 em;
   background: var(--screen-color);
   left: 58.8%;
   top: 37%;
